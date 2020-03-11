@@ -1,6 +1,6 @@
 import sys
 
-def add ():
+def add (x,y):
 	return x+y
 
 if __name__=="__main__":
