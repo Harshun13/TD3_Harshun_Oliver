@@ -1,7 +1,7 @@
 import sys
 
-def add ():
-	return x+y
+def mul ():
+	return x*y
 
 if __name__=="__main__":
 	if ( len(sys.argv) >  3):
@@ -12,17 +12,17 @@ if __name__=="__main__":
 		y = input("deuxieme valeur: ")
 		x = int(x)
 		y = int(y)
-		print( add() )
+		print( mul() )
 	elif (len(sys.argv) == 2 ):
 		print("error!! Entrez encore une valeur")
 		y = input("Le deuxieme valeur: ")
 		x = int( sys.argv[1] )
 		y = int(y)
-		print( add() )
+		print( mul() )
 	else:
 		x = int( sys.argv[1] )
 		y = int( sys.argv[2] )
-		print( add() )
+		print( mul() )
 
 
 
